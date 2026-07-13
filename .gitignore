@@ -2,8 +2,13 @@ git# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
-*.crash.log.
+*.crash.log
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
 
 # Variables (agar secrets hain)
 terraform.tfvars
